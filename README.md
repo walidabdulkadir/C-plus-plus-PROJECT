@@ -10,7 +10,7 @@ A simple, terminal-based **Bank Management System** written in C++ that allows u
 
 ---
 
-## 📸 Preview
+##  Preview
 
 ```
 ===== BANK SYSTEM =====
@@ -27,21 +27,21 @@ Choose: _
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
-| 👤 **Create Account** | Register with name, phone, password, and address |
-| 🔐 **Login** | Authenticate using phone number and password |
-| 💰 **Deposit** | Add funds to your account |
-| 💸 **Withdraw** | Withdraw funds (with balance validation) |
-| 🔁 **Transfer** | Send money to another account by phone number |
-| 📊 **Balance Inquiry** | View current account balance |
-| 🧾 **Transaction History** | View all past deposits, withdrawals, and transfers |
+|  **Create Account** | Register with name, phone, password, and address |
+|  **Login** | Authenticate using phone number and password |
+|  **Deposit** | Add funds to your account |
+|  **Withdraw** | Withdraw funds (with balance validation) |
+|  **Transfer** | Send money to another account by phone number |
+|  **Balance Inquiry** | View current account balance |
+|  **Transaction History** | View all past deposits, withdrawals, and transfers |
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -65,7 +65,7 @@ bank.exe        # Windows
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 bank-management-system/
@@ -76,11 +76,11 @@ bank-management-system/
 └── README.md         # Project documentation
 ```
 
-> ⚠️ `ACCOUNT.txt` and `HISTORY.txt` are created automatically at runtime. Do not delete them while the program is running.
+>  `ACCOUNT.txt` and `HISTORY.txt` are created automatically at runtime. Do not delete them while the program is running.
 
 ---
 
-## 🛠️ How It Works
+##  How It Works
 
 - **Account Storage** — Account details (name, phone, password, address, balance) are saved to `ACCOUNT.txt` using file I/O (`fstream`).
 - **Transaction Logging** — Every deposit, withdrawal, and transfer is appended to `HISTORY.txt`.
@@ -89,7 +89,7 @@ bank-management-system/
 
 ---
 
-## ⚠️ Known Limitations
+##  Known Limitations
 
 - Currently supports **one account at a time** (single-user system).
 - Passwords are stored in **plain text** — not suitable for production use.
@@ -98,7 +98,7 @@ bank-management-system/
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - [ ] Multi-account support with proper record lookup
 - [ ] Password hashing (e.g., SHA-256)
@@ -108,7 +108,7 @@ bank-management-system/
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -128,5 +128,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-Made with ❤️ and C++  
-Feel free to ⭐ the repo if you found it useful!
+Made by Walidc  
+Feel free to star the repo if you found it useful!
